@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/Pc/Downloads/landing_page_simple.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María Alejandra Eggers - Servicios de Optimización y UX</title>
+    <link href="./index_files/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index_files/all.min.css">
+    <link href="./index_files/css2" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+        .hero-pattern {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .optimiza-text {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #FF4500;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #FF4500, #FF8C00);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 69, 0, 0.3);
+        }
+        .package-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+        .package-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .popular-badge {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            background-color: #FF4500;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            z-index: 10;
+        }
+        .countdown {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 0 2px;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        .service-icon {
+            background: linear-gradient(135deg, #FF8C00, #FF4500);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        .testimonial-card {
+            border-left: 4px solid #FF4500;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-brain text-3xl text-gray-800 mr-3"></i>
+                <div>
+                    <h1 class="text-xl font-bold text-gray-800">María Alejandra Eggers</h1>
+                    <p class="text-sm text-gray-600">QA &amp; UX Specialist</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#services" class="text-gray-600 hover:text-orange-500 transition-colors">Servicios</a>
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#packages" class="text-gray-600 hover:text-orange-500 transition-colors">Paquetes</a>
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="text-gray-600 hover:text-orange-500 transition-colors">Contacto</a>
+            </nav>
+            <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="btn-primary text-white px-4 py-2 rounded-lg font-medium shadow-md hidden md:block">
+                Consulta Gratis
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern py-16 md:py-24">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+                        <span class="optimiza-text block">OPTIMIZA</span>
+                        tus procesos digitales y la experiencia de tus usuarios
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Enfoque antropológico único que combina el análisis técnico con la comprensión humana para transformar tus productos digitales.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="btn-primary text-white text-center px-8 py-3 rounded-lg font-medium shadow-md text-lg">
+                            Solicitar Diagnóstico Gratuito
+                        </a>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#ebooks" class="bg-white text-orange-500 border-2 border-orange-500 text-center px-8 py-3 rounded-lg font-medium text-lg hover:bg-gray-50 transition">
+                            Descargar E-books Gratis
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="bg-white p-1 rounded-xl shadow-xl">
+                        <img src="https://via.placeholder.com/600x400?text=Antropologia+Digital" alt="Enfoque antropológico digital" class="rounded-lg w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Oferta Especial -->
+    <section class="bg-orange-50 py-8">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="text-white mb-6 md:mb-0">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2">¡Oferta de Lanzamiento!</h3>
+                    <p class="text-white text-opacity-90">
+                        20% de descuento en tu primer paquete de servicios + diagnóstico gratuito.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <p class="text-white text-sm md:text-base mb-2">La oferta termina en:</p>
+                    <div class="flex justify-center">
+                        <div class="countdown">05</div>
+                        <span class="text-white mx-1 text-xl">:</span>
+                        <div class="countdown">12</div>
+                        <span class="text-white mx-1 text-xl">:</span>
+                        <div class="countdown">33</div>
+                    </div>
+                </div>
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="mt-6 md:mt-0 bg-white text-orange-600 px-6 py-3 rounded-lg font-bold shadow-md hover:bg-gray-100 transition">
+                    ¡Aprovechar Ahora!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Servicios Especializados</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Combinamos expertise técnico con comprensión antropológica para optimizar tus procesos y mejorar la experiencia de tus usuarios.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Servicio 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-check-double text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Quality Assurance</h3>
+                    <p class="text-gray-600 text-center">
+                        Garantizamos que tus productos digitales funcionen perfectamente y cumplan con los estándares de calidad.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Testing funcional de aplicaciones</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Diseño y ejecución de pruebas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Gestión de incidencias (JIRA)</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-file-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Documentación Técnica</h3>
+                    <p class="text-gray-600 text-center">
+                        Creamos documentación clara y efectiva para procesos, sistemas y usuarios.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Manuales de usuario final</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Documentación técnica</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Guías de onboarding</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-cogs text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Optimización de Procesos</h3>
+                    <p class="text-gray-600 text-center">
+                        Analizamos y mejoramos procesos aplicando metodologías Lean Six Sigma para aumentar la eficiencia.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Mapeo y análisis de procesos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Identificación de oportunidades</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Medición y KPIs de proceso</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">UX &amp; Soporte a Usuario</h3>
+                    <p class="text-gray-600 text-center">
+                        Analizamos la experiencia de usuario desde una perspectiva antropológica única.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Investigación de experiencia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Pruebas de usabilidad</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-orange-500 mt-1 mr-2"></i>
+                            <span>Análisis de feedback</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-block bg-gray-200 text-gray-800 hover:bg-gray-300 px-6 py-3 rounded-lg font-medium transition">
+                    Ver todos los servicios <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enfoque único -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="https://via.placeholder.com/600x400?text=Enfoque+Antropologico" alt="Enfoque antropológico" class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Enfoque Antropológico Único</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Como <strong>Antropóloga y especialista en QA</strong>, aplico una perspectiva única que une el rigor técnico con la comprensión profunda de los comportamientos humanos.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full bg-orange-500 flex items-center justify-center text-white mr-3">
+                                <i class="fas fa-lightbulb text-sm"></i>
+                            </div>
+                            <p><strong>Análisis contextual</strong> de cómo los usuarios interactúan con tu producto</p>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full bg-orange-500 flex items-center justify-center text-white mr-3">
+                                <i class="fas fa-lightbulb text-sm"></i>
+                            </div>
+                            <p><strong>Comprensión cultural</strong> que va más allá de métricas superficiales</p>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full bg-orange-500 flex items-center justify-center text-white mr-3">
+                                <i class="fas fa-lightbulb text-sm"></i>
+                            </div>
+                            <p><strong>Puente efectivo</strong> entre equipos técnicos y necesidades reales de usuarios</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center p-4 bg-orange-100 rounded-lg">
+                        <div class="flex-shrink-0 mr-4">
+                            <i class="fas fa-quote-left text-3xl text-orange-500"></i>
+                        </div>
+                        <p class="text-gray-700 italic">
+                            "Mi formación en Antropología complementa mi expertise técnica, permitiéndome descubrir insights que otros profesionales no detectan."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paquetes -->
+    <section id="packages" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Paquetes de Servicios</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Diseñados para adaptarse a las necesidades de tu empresa, desde emprendimientos hasta empresas consolidadas.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Paquete 1 -->
+                <div class="package-card relative bg-white rounded-xl overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Inicio Inteligente</h3>
+                        <p class="text-gray-600 mb-4">Ideal para emprendimientos y startups</p>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$350.000</span>
+                            <span class="text-gray-600 ml-1 mb-1">/ mes</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>10 horas mensuales de servicios a elección</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>1 informe de diagnóstico inicial</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>1 reunión de seguimiento mensual</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Acceso a recursos digitales exclusivos</span>
+                            </li>
+                            <li class="flex items-start text-gray-400">
+                                <i class="fas fa-times-circle mt-1 mr-2"></i>
+                                <span>Respuesta prioritaria</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <p class="text-sm text-gray-500 mb-4">Compromiso mínimo: 1 mes</p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="block text-center bg-gray-800 text-white py-3 rounded-lg font-medium hover:bg-gray-700 transition">
+                            Solicitar Información
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Paquete 2 -->
+                <div class="package-card relative bg-white rounded-xl overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Impulso Digital</h3>
+                        <p class="text-gray-600 mb-4">Para pequeñas empresas con presencia digital</p>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$480.000</span>
+                            <span class="text-gray-600 ml-1 mb-1">/ mes</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>15 horas mensuales distribuibles</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Análisis básico de usabilidad</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Testing básico de aplicaciones</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Documentación de un proceso crítico</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Informe mensual con recomendaciones</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <p class="text-sm text-gray-500 mb-4">Compromiso mínimo: 2 meses</p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="block text-center bg-gray-800 text-white py-3 rounded-lg font-medium hover:bg-gray-700 transition">
+                            Solicitar Información
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Paquete 3 (Popular) -->
+                <div class="package-card relative bg-white rounded-xl overflow-hidden shadow-xl border-2 border-orange-500">
+                    <div class="popular-badge">Más Popular</div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Transformación Completa</h3>
+                        <p class="text-gray-600 mb-4">Para empresas que buscan optimización continua</p>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$600.000</span>
+                            <span class="text-gray-600 ml-1 mb-1">/ mes</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>20 horas mensuales de servicios UX/QA</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Distribución flexible entre servicios</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Respuesta prioritaria</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Reunión mensual de seguimiento</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Informe mensual de actividades</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <p class="text-sm text-gray-500 mb-4">Compromiso mínimo: 3 meses</p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="block text-center btn-primary text-white py-3 rounded-lg font-medium">
+                            Solicitar Información
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Paquete 4 -->
+                <div class="package-card relative bg-white rounded-xl overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Crecimiento Estratégico</h3>
+                        <p class="text-gray-600 mb-4">Para empresas en crecimiento</p>
+                        <div class="flex items-end mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$750.000</span>
+                            <span class="text-gray-600 ml-1 mb-1">/ mes</span>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>25 horas mensuales de servicios</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Plan de optimización de procesos críticos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Testing completo de plataformas digitales</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Documentación de hasta 2 procesos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Capacitación para el equipo</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Reuniones quincenales de seguimiento</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <p class="text-sm text-gray-500 mb-4">Compromiso mínimo: 3 meses</p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="block text-center bg-gray-800 text-white py-3 rounded-lg font-medium hover:bg-gray-700 transition">
+                            Solicitar Información
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="mb-6 text-lg text-gray-600">
+                    ¿Necesitas una solución personalizada? Podemos diseñar un paquete a medida para ti.
+                </p>
+                <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-block border-2 border-gray-800 text-gray-800 px-10 py-3 rounded-lg font-medium hover:bg-gray-800 hover:text-white transition">
+                    Contactar para Soluciones Personalizadas
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Lo Que Dicen Nuestros Clientes</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Empresas que han transformado sus procesos y mejorado su experiencia de usuario.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="testimonial-card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60" alt="Cliente" class="w-12 h-12 rounded-full object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-lg">Carlos Méndez</h4>
+                            <p class="text-gray-600 text-sm">CEO, TechSoluciones</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "María Alejandra transformó nuestros procesos caóticos en un sistema estructurado. Su enfoque antropológico nos permitió entender mejor a nuestros usuarios y mejorar significativamente nuestra experiencia digital."
+                    </p>
+                    <div class="flex text-orange-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 2 -->
+                <div class="testimonial-card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60" alt="Cliente" class="w-12 h-12 rounded-full object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-lg">Valentina Rojas</h4>
+                            <p class="text-gray-600 text-sm">Product Manager, FinTech Chile</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "Su trabajo en QA elevó considerablemente la calidad de nuestras entregas. Redujimos los defectos post-lanzamiento en más de un 70% y nuestros clientes notaron la diferencia de inmediato."
+                    </p>
+                    <div class="flex text-orange-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 3 -->
+                <div class="testimonial-card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60" alt="Cliente" class="w-12 h-12 rounded-full object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-lg">Andrés Fuentes</h4>
+                            <p class="text-gray-600 text-sm">Fundador, StartupChile</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "La documentación que desarrolló para nuestros procesos fue clave para escalar nuestro equipo. Ahora el onboarding es mucho más rápido y los nuevos empleados se integran con facilidad."
+                    </p>
+                    <div class="flex text-orange-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- E-books Gratuitos -->
+    <section id="ebooks" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">E-books Gratuitos</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Descarga nuestros recursos para mejorar tus procesos y experiencia de usuario.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- E-book 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://via.placeholder.com/400x250?text=UX+Guide" alt="Ebook UX" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Guía Esencial: 10 Principios de UX</h3>
+                        <p class="text-gray-600 mb-4">
+                            Principios fundamentales de experiencia de usuario que toda empresa debería implementar.
+                        </p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition">
+                            Descargar Gratis <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- E-book 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://via.placeholder.com/400x250?text=QA+Manual" alt="Ebook QA" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Manual de Supervivencia para QA</h3>
+                        <p class="text-gray-600 mb-4">
+                            Detecta y previene errores críticos en tu producto digital con técnicas de testing básicas.
+                        </p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition">
+                            Descargar Gratis <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- E-book 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://via.placeholder.com/400x250?text=Process+Optimization" alt="Ebook Procesos" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Optimización de Procesos para Dummies</h3>
+                        <p class="text-gray-600 mb-4">
+                            Guía introductoria para identificar cuellos de botella y mapear procesos eficientemente.
+                        </p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition">
+                            Descargar Gratis <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- E-book 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://via.placeholder.com/400x250?text=Digital+Anthropology" alt="Ebook Antropología Digital" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Antropología Digital</h3>
+                        <p class="text-gray-600 mb-4">
+                            Entendiendo a tus usuarios más allá de los clicks: técnicas básicas de investigación.
+                        </p>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#contact" class="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition">
+                            Descargar Gratis <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 md:pr-12 mb-10 md:mb-0">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">¿Listo para optimizar tu negocio?</h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Completa el formulario y agendemos una consulta inicial gratuita para analizar tus necesidades específicas.
+                    </p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 mr-4">
+                                <i class="fas fa-check-circle text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold mb-1">Diagnóstico Gratuito</h4>
+                                <p class="text-gray-600">Evaluación inicial sin compromiso para identificar áreas de mejora.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 mr-4">
+                                <i class="fas fa-file-download text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold mb-1">E-books Gratuitos</h4>
+                                <p class="text-gray-600">Acceso inmediato a recursos valiosos para tu negocio.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 mr-4">
+                                <i class="fas fa-tag text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold mb-1">20% de Descuento</h4>
+                                <p class="text-gray-600">En tu primer paquete de servicios si te contactas hoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-user-check text-green-500 text-xl mr-3"></i>
+                            <h3 class="text-lg font-bold">Más de 50 clientes satisfechos</h3>
+                        </div>
+                        <p class="text-gray-600">
+                            Empresas de diversos tamaños y sectores han mejorado sus procesos y experiencia de usuario gracias a nuestros servicios.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Solicita Información</h3>
+                        
+                        <form action="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" method="POST" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Nombre Completo *</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Tu nombre" required="">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Corporativo *</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="tu@empresa.cl" required="">
+                            </div>
+                            
+                            <div>
+                                <label for="company" class="block text-gray-700 font-medium mb-2">Empresa</label>
+                                <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Nombre de tu empresa">
+                            </div>
+                            
+                            <div>
+                                <label for="need" class="block text-gray-700 font-medium mb-2">¿Qué servicio te interesa? *</label>
+                                <select id="need" name="need" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" required="">
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="qa">Quality Assurance y Testing</option>
+                                    <option value="doc">Documentación Técnica</option>
+                                    <option value="process">Optimización de Procesos</option>
+                                    <option value="ux">UX y Soporte a Usuario</option>
+                                    <option value="all">Varios Servicios</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Mensaje (opcional)</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Cuéntanos brevemente sobre tu proyecto o necesidad..."></textarea>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <input type="checkbox" id="privacy" name="privacy" class="mt-1 mr-2" required="">
+                                <label for="privacy" class="text-sm text-gray-600">
+                                    Acepto recibir información por email y he leído la <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-orange-500 hover:underline">política de privacidad</a> *
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="w-full btn-primary text-white font-medium py-3 rounded-lg">
+                                Solicitar Diagnóstico Gratuito
+                            </button>
+                        </form>
+                        
+                        <p class="text-sm text-gray-500 mt-6 text-center">
+                            Te contactaremos en menos de 24 horas hábiles
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-brain text-3xl text-orange-500 mr-3"></i>
+                        <div>
+                            <h3 class="text-xl font-bold">María Alejandra Eggers</h3>
+                            <p class="text-gray-400 text-sm">QA Analyst | Antropóloga | Especialista en Procesos</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 max-w-md mb-6">
+                        Más de 10 años de experiencia en gestión y control de proyectos, combinando formación antropológica con expertise técnica en optimización de procesos.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-medium text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Servicios</h4>
+                        <ul class="space-y-2">
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">Quality Assurance</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">Documentación Técnica</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">Optimización de Procesos</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">UX &amp; Soporte</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Recursos</h4>
+                        <ul class="space-y-2">
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">E-books Gratuitos</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">Estudios de Caso</a></li>
+                            <li><a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-envelope text-gray-400 mt-1 mr-2"></i>
+                                <a href="mailto:contacto@alejandraeggers.cl" class="text-gray-400 hover:text-white transition">contacto@alejandraeggers.cl</a>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-gray-400 mt-1 mr-2"></i>
+                                <span class="text-gray-400">Santiago, Chile</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-phone-alt text-gray-400 mt-1 mr-2"></i>
+                                <a href="tel:+56912345678" class="text-gray-400 hover:text-white transition">+56 9 1234 5678</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="border-gray-700 my-8">
+            
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    © 2025 María Alejandra Eggers. Todos los derechos reservados.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white text-sm transition">Política de Privacidad</a>
+                    <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white text-sm transition">Términos y Condiciones</a>
+                    <a href="file:///C:/Users/Pc/Downloads/landing_page_simple.html#" class="text-gray-400 hover:text-white text-sm transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para contador -->
+    <script>
+        // Simplemente para efectos de demostración
+        // En producción, se implementaría un contador real
+        function startCountdown() {
+            // Contador de ejemplo
+        }
+        startCountdown();
+    </script>
+
+</body></html>
